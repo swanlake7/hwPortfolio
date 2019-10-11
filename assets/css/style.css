@@ -1,0 +1,74 @@
+/* The best way is to make a div, give it a
+class, link that class in css, from there give 
+type padding, background color and a width */
+*{
+   box-sizing: border-box;    
+ } 
+
+ .top{
+  width: 960px;
+  background: none;
+  height: auto;
+  margin: 0 auto;
+  width: 960px;
+  }
+
+.name{
+  text-decoration: none;
+  font-size: 40px;
+  background: grey;
+  padding: 30px;
+  color: navajowhite;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.menu{
+  text-decoration: none;
+  float: right;
+  padding-right: 20px;
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 30px;
+  color: grey;
+  }
+
+  #full {
+    width: 960px;
+    overflow: auto;
+    color: grey;
+    background: pink;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.img{
+  float:left;
+  padding-right: 30px;
+  margin-top: 10px;
+}
+
+.p{
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.footer{
+  width: 960px;
+  color: black;
+  float: left;
+  margin-top: 30px;
+  width: 100%;
+  background: lightgrey;
+  height: auto;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: auto;
+  opacity: 30%;
+}
